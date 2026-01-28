@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>거북이 도감 - Turtle Species Encyclopedia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>&#x1F422; 거북이 도감</h1>
+      <p class="subtitle">Turtle &amp; Tortoise Species Encyclopedia</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="controls">
+      <input type="text" id="search" placeholder="이름 또는 학명으로 검색..." autocomplete="off">
+      <div class="filter-group">
+        <label>서식지:</label>
+        <select id="filter-habitat">
+          <option value="all">전체</option>
+          <option value="sea">바다</option>
+          <option value="freshwater">민물</option>
+          <option value="land">육지</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label>보전 상태:</label>
+        <select id="filter-status">
+          <option value="all">전체</option>
+          <option value="CR">위급 (CR)</option>
+          <option value="EN">위기 (EN)</option>
+          <option value="VU">취약 (VU)</option>
+          <option value="NT">준위협 (NT)</option>
+          <option value="LC">관심대상 (LC)</option>
+          <option value="DD">정보부족 (DD)</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label>대륙:</label>
+        <select id="filter-region">
+          <option value="all">전체</option>
+          <option value="아시아">아시아</option>
+          <option value="아프리카">아프리카</option>
+          <option value="북아메리카">북아메리카</option>
+          <option value="남아메리카">남아메리카</option>
+          <option value="유럽">유럽</option>
+          <option value="오세아니아">오세아니아</option>
+          <option value="전 세계 열대·온대 해역">전 세계 해역</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="stats" id="stats"></section>
+
+    <section class="grid" id="turtle-grid"></section>
+
+    <!-- Modal -->
+    <div class="modal-overlay" id="modal-overlay">
+      <div class="modal" id="modal">
+        <button class="modal-close" id="modal-close">&times;</button>
+        <div class="modal-body" id="modal-body"></div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 거북이 도감 | 데이터 출처: IUCN Red List, TTWG (Turtle Taxonomy Working Group)</p>
+  </footer>
+
+  <script src="turtles.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
