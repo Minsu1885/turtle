@@ -12,7 +12,7 @@ const TURTLES = [
     lifespan: "60~80년",
     diet: "해초, 해조류 (성체는 초식)",
     status: "EN",
-    emoji: "🐢",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Green_sea_turtle_swimming_over_coral_reefs_in_Kona.jpg/640px-Green_sea_turtle_swimming_over_coral_reefs_in_Kona.jpg",
     description: "전 세계 열대 및 아열대 해역에 서식하는 대형 바다거북입니다. 성체는 주로 해초와 해조류를 먹는 초식성으로, 이름은 체지방의 녹색빛에서 유래했습니다. 산란을 위해 수천 km를 이동하며, 태어난 해변으로 돌아오는 놀라운 귀소본능을 가지고 있습니다."
   },
   {
@@ -27,7 +27,7 @@ const TURTLES = [
     lifespan: "50~67년",
     diet: "갑각류, 조개, 해파리",
     status: "VU",
-    emoji: "🐢",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Loggerhead_sea_turtle_%28caretta_caretta%29.jpg/640px-Loggerhead_sea_turtle_%28caretta_caretta%29.jpg",
     description: "큰 머리와 강력한 턱을 가진 바다거북으로, 조개나 갑각류의 껍데기를 부수어 먹습니다. 대서양, 태평양, 인도양의 온대 및 열대 해역에 널리 분포하며, 한국 연안에서도 관찰됩니다."
   },
   {
@@ -42,7 +42,7 @@ const TURTLES = [
     lifespan: "45~50년",
     diet: "해파리, 말미잘",
     status: "VU",
-    emoji: "🐢",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Leatherback_sea_turtle_Tinglar%2C_USVI_%285839996547%29.jpg/640px-Leatherback_sea_turtle_Tinglar%2C_USVI_%285839996547%29.jpg",
     description: "현존하는 가장 큰 거북으로, 길이 2m, 무게 700kg까지 자랍니다. 딱딱한 등딱지 대신 가죽 같은 피부로 덮여 있어 '장수(革)'거북이라 불립니다. 가장 깊이 잠수하는 파충류(1,280m 기록)이며, 찬 바다에서도 체온을 유지할 수 있습니다."
   },
   {
@@ -57,8 +57,8 @@ const TURTLES = [
     lifespan: "30~50년",
     diet: "해면동물, 해파리, 산호",
     status: "CR",
-    emoji: "🐢",
-    description: "매의 부리처럼 뾰족한 입을 가진 아름다운 바다거북입니다. 산호초에 서식하며 해면동물을 주로 먹습니다. 아름다운 등딱지 때문에 '거북이 등딱지 공예(베껴세공)'의 재료로 남획되어 심각한 멸종 위기에 처해 있습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Hawksbill_Sea_Turtle_Carey_de_Concha_%288407535777%29.jpg/640px-Hawksbill_Sea_Turtle_Carey_de_Concha_%288407535777%29.jpg",
+    description: "매의 부리처럼 뾰족한 입을 가진 아름다운 바다거북입니다. 산호초에 서식하며 해면동물을 주로 먹습니다. 아름다운 등딱지 때문에 남획되어 심각한 멸종 위기에 처해 있습니다."
   },
   {
     name: "올리브각시바다거북",
@@ -72,7 +72,7 @@ const TURTLES = [
     lifespan: "50년 이상",
     diet: "새우, 게, 해파리, 조류",
     status: "VU",
-    emoji: "🐢",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Olive_ridley_sea_turtle.jpg/640px-Olive_ridley_sea_turtle.jpg",
     description: "가장 수가 많은 바다거북 종으로, 올리브색 등딱지가 특징입니다. '아리바다(arribada)'라 불리는 대규모 집단 산란으로 유명하며, 수천 마리가 동시에 해변에 올라와 알을 낳습니다."
   },
   {
@@ -87,8 +87,8 @@ const TURTLES = [
     lifespan: "30~50년",
     diet: "게, 새우, 조개, 해파리",
     status: "CR",
-    emoji: "🐢",
-    description: "가장 작고 가장 위험에 처한 바다거북 종입니다. 멕시코 만과 대서양 서부에 서식하며, 멕시코 타마울리파스 해변에서 주로 산란합니다. 1947년에는 4만 마리가 한 해변에서 산란하는 영상이 촬영되었으나, 남획으로 개체수가 급감했습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Lepidochelys-kempii.jpg/640px-Lepidochelys-kempii.jpg",
+    description: "가장 작고 가장 위험에 처한 바다거북 종입니다. 멕시코 만과 대서양 서부에 서식하며, 멕시코 타마울리파스 해변에서 주로 산란합니다."
   },
   {
     name: "넓적바다거북",
@@ -102,8 +102,8 @@ const TURTLES = [
     lifespan: "50년 이상",
     diet: "해삼, 해파리, 새우, 해조류",
     status: "DD",
-    emoji: "🐢",
-    description: "호주 북부 연안에서만 발견되는 고유종 바다거북입니다. 등딱지가 다른 바다거북에 비해 납작하여 '넓적바다거북'이라 불립니다. 다른 바다거북과 달리 먼 바다로 나가지 않고 대륙붕 근처에 머무릅니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flatback_sea_turtle.jpg/640px-Flatback_sea_turtle.jpg",
+    description: "호주 북부 연안에서만 발견되는 고유종 바다거북입니다. 등딱지가 다른 바다거북에 비해 납작하여 '넓적바다거북'이라 불립니다."
   },
 
   // ===== 육지거북 (Tortoises) =====
@@ -119,8 +119,8 @@ const TURTLES = [
     lifespan: "100~175년",
     diet: "선인장, 풀, 과일, 잎",
     status: "VU",
-    emoji: "🐢",
-    description: "세계에서 가장 큰 육지거북으로, 갈라파고스 제도의 상징입니다. 찰스 다윈이 진화론의 영감을 얻은 동물이기도 합니다. 섬마다 다른 등딱지 형태를 가지며, 15개 아종 중 일부는 이미 멸종했습니다. '외로운 조지(Lonesome George)'로 유명한 핀타섬 아종은 2012년 마지막 개체가 사망했습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Geochelone_nigra_abingdonii.jpg/640px-Geochelone_nigra_abingdonii.jpg",
+    description: "세계에서 가장 큰 육지거북으로, 갈라파고스 제도의 상징입니다. 찰스 다윈이 진화론의 영감을 얻은 동물이기도 합니다. '외로운 조지(Lonesome George)'로 유명한 핀타섬 아종은 2012년 마지막 개체가 사망했습니다."
   },
   {
     name: "알다브라자이언트거북",
@@ -134,8 +134,8 @@ const TURTLES = [
     lifespan: "100~200년",
     diet: "풀, 잎, 줄기, 과일",
     status: "VU",
-    emoji: "🐢",
-    description: "세이셸 알다브라 환초에 서식하는 대형 육지거북으로, 갈라파고스 거북과 함께 세계 최대 육지거북입니다. 약 10만 마리가 알다브라 환초에 살고 있으며, 이는 갈라파고스 거북보다 훨씬 많은 수입니다. 200년 이상 사는 것으로 알려져 있습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Aldabra_Giant_Tortoise_Geochelone_gigantea_edit1.jpg/640px-Aldabra_Giant_Tortoise_Geochelone_gigantea_edit1.jpg",
+    description: "세이셸 알다브라 환초에 서식하는 대형 육지거북으로, 갈라파고스 거북과 함께 세계 최대 육지거북입니다. 약 10만 마리가 알다브라 환초에 살고 있으며, 200년 이상 사는 것으로 알려져 있습니다."
   },
   {
     name: "아프리카박차거북",
@@ -149,8 +149,8 @@ const TURTLES = [
     lifespan: "70~100년",
     diet: "풀, 건초, 잎, 꽃",
     status: "EN",
-    emoji: "🐢",
-    description: "아프리카 대륙 최대의 육지거북이자, 세계에서 세 번째로 큰 육지거북입니다. 사하라 사막 남쪽 가장자리의 사헬 지역에 서식합니다. 뒷다리의 큰 박차(돌기)가 특징이며, 더위를 피하기 위해 깊은 굴을 팝니다. 애완용으로 인기가 높습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Centrochelys_sulcata_-_Houston_Zoo_-_cropped.jpg/640px-Centrochelys_sulcata_-_Houston_Zoo_-_cropped.jpg",
+    description: "아프리카 대륙 최대의 육지거북이자, 세계에서 세 번째로 큰 육지거북입니다. 사하라 사막 남쪽 가장자리의 사헬 지역에 서식합니다. 뒷다리의 큰 박차(돌기)가 특징이며, 더위를 피하기 위해 깊은 굴을 팝니다."
   },
   {
     name: "레오파드거북",
@@ -164,8 +164,8 @@ const TURTLES = [
     lifespan: "50~100년",
     diet: "풀, 잡초, 다육식물, 과일",
     status: "LC",
-    emoji: "🐢",
-    description: "등딱지에 표범 무늬와 유사한 검은 점과 줄무늬가 있어 이름이 붙었습니다. 동아프리카와 남아프리카의 사바나와 초원에 서식하며, 아프리카에서 네 번째로 큰 육지거북입니다. 수영을 잘 못하고, 동면이나 하면(夏眠)을 하지 않습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Leopard_tortoise_-Tanzania.jpg/640px-Leopard_tortoise_-Tanzania.jpg",
+    description: "등딱지에 표범 무늬와 유사한 검은 점과 줄무늬가 있어 이름이 붙었습니다. 동아프리카와 남아프리카의 사바나와 초원에 서식하며, 아프리카에서 네 번째로 큰 육지거북입니다."
   },
   {
     name: "헤르만거북",
@@ -179,8 +179,8 @@ const TURTLES = [
     lifespan: "50~75년",
     diet: "풀, 꽃, 잎, 과일",
     status: "NT",
-    emoji: "🐢",
-    description: "남유럽의 지중해 연안에 서식하는 소형~중형 육지거북입니다. 노란색과 검은색의 아름다운 등딱지 무늬가 특징이며, 유럽에서 가장 인기있는 애완 거북 중 하나입니다. 서부 아종(T. h. hermanni)과 동부 아종(T. h. boettgeri)으로 나뉩니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Testudo_hermanni_hermanni_Mallorca_02.jpg/640px-Testudo_hermanni_hermanni_Mallorca_02.jpg",
+    description: "남유럽의 지중해 연안에 서식하는 소형~중형 육지거북입니다. 노란색과 검은색의 아름다운 등딱지 무늬가 특징이며, 유럽에서 가장 인기있는 애완 거북 중 하나입니다."
   },
   {
     name: "그리스거북",
@@ -194,8 +194,8 @@ const TURTLES = [
     lifespan: "50~125년",
     diet: "풀, 잎, 꽃, 과일",
     status: "VU",
-    emoji: "🐢",
-    description: "남유럽, 북아프리카, 서아시아에 광범위하게 분포하는 육지거북입니다. 뒷다리에 있는 작은 박차가 특징이며, 다양한 아종이 있습니다. 가장 오래 기록된 개체는 100년 이상 살았습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Testudo_graeca_ibera.JPG/640px-Testudo_graeca_ibera.JPG",
+    description: "남유럽, 북아프리카, 서아시아에 광범위하게 분포하는 육지거북입니다. 뒷다리에 있는 작은 박차가 특징이며, 다양한 아종이 있습니다."
   },
   {
     name: "러시아거북",
@@ -209,8 +209,8 @@ const TURTLES = [
     lifespan: "40~50년",
     diet: "풀, 잎, 꽃, 과일",
     status: "VU",
-    emoji: "🐢",
-    description: "중앙아시아의 건조한 초원과 사막에 서식하는 소형 육지거북입니다. 러시아, 우즈베키스탄, 이란, 아프가니스탄, 파키스탄에 분포합니다. 추위에 강하고 크기가 작아 애완용으로 전 세계적으로 인기가 높습니다. 네 개의 발톱이 특징적입니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Testudo_horsfieldii.jpg/640px-Testudo_horsfieldii.jpg",
+    description: "중앙아시아의 건조한 초원과 사막에 서식하는 소형 육지거북입니다. 러시아, 우즈베키스탄, 이란, 아프가니스탄, 파키스탄에 분포합니다. 추위에 강하고 크기가 작아 애완용으로 인기가 높습니다."
   },
   {
     name: "인도별거북",
@@ -224,8 +224,8 @@ const TURTLES = [
     lifespan: "35~80년",
     diet: "풀, 꽃, 과일, 잎",
     status: "VU",
-    emoji: "🐢",
-    description: "등딱지에 별 모양의 아름다운 방사형 무늬가 있는 인도, 스리랑카, 파키스탄의 육지거북입니다. 높이 솟은 돔형 등딱지가 특징이며, 뒤집어져도 쉽게 원래 자세로 돌아올 수 있습니다. 아름다운 외모 때문에 불법 밀거래의 대상이 되고 있습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/IndianStarTortoise.jpg/640px-IndianStarTortoise.jpg",
+    description: "등딱지에 별 모양의 아름다운 방사형 무늬가 있는 인도, 스리랑카, 파키스탄의 육지거북입니다. 높이 솟은 돔형 등딱지가 특징이며, 아름다운 외모 때문에 불법 밀거래의 대상이 되고 있습니다."
   },
   {
     name: "방사거북",
@@ -239,8 +239,8 @@ const TURTLES = [
     lifespan: "40~100년 이상",
     diet: "풀, 과일, 선인장",
     status: "CR",
-    emoji: "🐢",
-    description: "마다가스카르 남부에만 서식하는 아름다운 육지거북으로, 등딱지의 노란색 방사형 무늬가 매우 화려합니다. 세계에서 가장 아름다운 거북 중 하나로 꼽히지만, 서식지 파괴와 식용 포획으로 심각한 멸종 위기에 처해 있습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Radiated_tortoise_%28Astrochelys_radiata%29_3.jpg/640px-Radiated_tortoise_%28Astrochelys_radiata%29_3.jpg",
+    description: "마다가스카르 남부에만 서식하는 아름다운 육지거북으로, 등딱지의 노란색 방사형 무늬가 매우 화려합니다. 세계에서 가장 아름다운 거북 중 하나로 꼽힙니다."
   },
   {
     name: "팬케이크거북",
@@ -254,8 +254,8 @@ const TURTLES = [
     lifespan: "25~35년",
     diet: "풀, 마른 잎, 다육식물",
     status: "CR",
-    emoji: "🐢",
-    description: "이름처럼 납작한 등딱지를 가진 독특한 거북으로, 동아프리카의 바위 틈에 살며 위험할 때 바위 사이로 몸을 부풀려 끼워 넣습니다. 다른 육지거북과 달리 빠르고 민첩하며, 등딱지가 유연합니다. 독특한 외모로 밀거래 대상이 되어 개체수가 급감하고 있습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Malacochersus_tornieri_-_National_Museum_of_Nature_and_Science%2C_Tokyo_-_DSC06686.JPG/640px-Malacochersus_tornieri_-_National_Museum_of_Nature_and_Science%2C_Tokyo_-_DSC06686.JPG",
+    description: "이름처럼 납작한 등딱지를 가진 독특한 거북으로, 동아프리카의 바위 틈에 살며 위험할 때 바위 사이로 몸을 부풀려 끼워 넣습니다. 다른 육지거북과 달리 빠르고 민첩합니다."
   },
   {
     name: "붉은발거북",
@@ -269,8 +269,8 @@ const TURTLES = [
     lifespan: "50년 이상",
     diet: "과일, 꽃, 잎, 버섯, 무척추동물",
     status: "LC",
-    emoji: "🐢",
-    description: "남아메리카 열대 지역에 서식하며, 다리와 머리에 빨간색 또는 주황색 비늘이 특징적입니다. 잡식성으로 과일, 꽃, 버섯 등을 먹으며, 사회적이어서 여러 마리가 함께 생활합니다. 카리브해 섬들에도 인간에 의해 도입되었습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Chelonoidis_carbonaria_-_Red-Footed_Tortoise_01.jpg/640px-Chelonoidis_carbonaria_-_Red-Footed_Tortoise_01.jpg",
+    description: "남아메리카 열대 지역에 서식하며, 다리와 머리에 빨간색 또는 주황색 비늘이 특징적입니다. 잡식성으로 과일, 꽃, 버섯 등을 먹습니다."
   },
   {
     name: "노란발거북",
@@ -284,8 +284,8 @@ const TURTLES = [
     lifespan: "50~60년",
     diet: "과일, 잎, 꽃, 버섯",
     status: "VU",
-    emoji: "🐢",
-    description: "남아메리카의 아마존 열대우림에 서식하는 대형 육지거북으로, 대륙 최대의 육지거북입니다. 다리에 노란색 비늘이 있으며, 붉은발거북보다 더 크게 자랍니다. 숲 바닥의 낙과를 주로 먹습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Chelonoidis_denticulata_-_Yellow-Footed_Tortoise_02.jpg/640px-Chelonoidis_denticulata_-_Yellow-Footed_Tortoise_02.jpg",
+    description: "남아메리카의 아마존 열대우림에 서식하는 대형 육지거북으로, 대륙 최대의 육지거북입니다. 다리에 노란색 비늘이 있습니다."
   },
   {
     name: "앙고노카거북",
@@ -299,11 +299,11 @@ const TURTLES = [
     lifespan: "50~100년",
     diet: "풀, 관목, 잎",
     status: "CR",
-    emoji: "🐢",
-    description: "마다가스카르 북서부에만 서식하는 세계에서 가장 희귀한 거북 중 하나입니다. 수컷의 목 아래 돌출된 쟁기(ploughshare) 모양의 등딱지판이 특징적입니다. 야생에서 약 400마리만 남아있으며, 밀거래와 서식지 파괴로 심각한 위협을 받고 있습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Angonoka_%28Astrochelys_yniphora%29.jpg/640px-Angonoka_%28Astrochelys_yniphora%29.jpg",
+    description: "마다가스카르 북서부에만 서식하는 세계에서 가장 희귀한 거북 중 하나입니다. 수컷의 목 아래 돌출된 쟁기(ploughshare) 모양의 등딱지판이 특징적입니다. 야생에서 약 400마리만 남아있습니다."
   },
   {
-    name: "호스필드거북",
+    name: "이집트거북",
     english: "Egyptian Tortoise",
     scientific: "Testudo kleinmanni",
     family: "땅거북과 (Testudinidae)",
@@ -314,7 +314,7 @@ const TURTLES = [
     lifespan: "30~50년",
     diet: "풀, 잎, 꽃",
     status: "CR",
-    emoji: "🐢",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Testudo_kleinmanni.jpg/640px-Testudo_kleinmanni.jpg",
     description: "북아프리카(이집트, 리비아)에 서식하는 매우 작은 육지거북으로, 북반구에서 가장 작은 거북입니다. 연한 황금색 등딱지가 아름다우며, 서식지 파괴로 이집트에서는 거의 멸종했습니다."
   },
   {
@@ -329,7 +329,7 @@ const TURTLES = [
     lifespan: "50~100년",
     diet: "풀, 잎, 꽃, 과일",
     status: "LC",
-    emoji: "🐢",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Testudo_marginata_5.jpg/640px-Testudo_marginata_5.jpg",
     description: "유럽에서 가장 큰 육지거북으로, 그리스와 이탈리아 남부에 서식합니다. 등딱지 뒤쪽이 치마처럼 넓게 퍼지는 독특한 형태가 특징입니다."
   },
   {
@@ -344,8 +344,8 @@ const TURTLES = [
     lifespan: "40~80년",
     diet: "풀, 과일, 버섯",
     status: "CR",
-    emoji: "🐢",
-    description: "미얀마에만 서식하는 고유종으로, 인도별거북과 비슷하지만 별 무늬가 더 선명하고 크기가 다릅니다. 야생에서 거의 멸종 상태였으나, 적극적인 보전 프로그램으로 개체수가 회복되고 있습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Geochelone_platynota.jpg/640px-Geochelone_platynota.jpg",
+    description: "미얀마에만 서식하는 고유종으로, 인도별거북과 비슷하지만 별 무늬가 더 선명합니다. 야생에서 거의 멸종 상태였으나, 보전 프로그램으로 개체수가 회복되고 있습니다."
   },
   {
     name: "거미거북",
@@ -359,8 +359,8 @@ const TURTLES = [
     lifespan: "40~70년",
     diet: "식물, 곤충, 과일",
     status: "CR",
-    emoji: "🐢",
-    description: "마다가스카르 남서부에만 서식하는 소형 거북으로, 등딱지의 노란 방사형 무늬가 거미줄과 닮아 이름이 붙었습니다. 서식지 파괴와 밀거래로 심각한 멸종 위기에 처해 있습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Pyxis_arachnoides_-_Madagascar.jpg/640px-Pyxis_arachnoides_-_Madagascar.jpg",
+    description: "마다가스카르 남서부에만 서식하는 소형 거북으로, 등딱지의 노란 방사형 무늬가 거미줄과 닮아 이름이 붙었습니다."
   },
 
   // ===== 민물거북 (Freshwater Turtles) =====
@@ -376,8 +376,8 @@ const TURTLES = [
     lifespan: "20~40년",
     diet: "수생식물, 곤충, 물고기, 갑각류",
     status: "LC",
-    emoji: "🐢",
-    description: "귀 부분의 빨간 줄무늬가 특징인 북아메리카 원산의 민물거북입니다. 전 세계적으로 가장 인기있는 애완 거북이지만, 방류로 인해 최악의 침입종 100종에 포함되어 있습니다. 한국을 포함한 전 세계 많은 나라에서 야생화되어 생태계를 위협하고 있습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Trachemys_scripta_elegans_-_Red-eared_Slider.jpg/640px-Trachemys_scripta_elegans_-_Red-eared_Slider.jpg",
+    description: "귀 부분의 빨간 줄무늬가 특징인 북아메리카 원산의 민물거북입니다. 전 세계적으로 가장 인기있는 애완 거북이지만, 방류로 인해 최악의 침입종 100종에 포함되어 있습니다."
   },
   {
     name: "남생이",
@@ -391,8 +391,8 @@ const TURTLES = [
     lifespan: "25~40년",
     diet: "수생식물, 물고기, 곤충",
     status: "EN",
-    emoji: "🐢",
-    description: "한국, 중국, 대만, 베트남에 서식하는 민물거북으로, 한국의 대표적인 토종 거북입니다. 목에 노란색 줄무늬가 있으며, 느리게 흐르는 하천과 연못에 삽니다. 한국에서는 천연기념물 제453호로 지정되어 보호받고 있습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Mauremys_sinensis_2008.jpg/640px-Mauremys_sinensis_2008.jpg",
+    description: "한국, 중국, 대만, 베트남에 서식하는 민물거북으로, 한국의 대표적인 토종 거북입니다. 목에 노란색 줄무늬가 있으며, 천연기념물 제453호로 지정되어 보호받고 있습니다."
   },
   {
     name: "자라",
@@ -406,8 +406,8 @@ const TURTLES = [
     lifespan: "20~30년",
     diet: "물고기, 새우, 곤충, 조개",
     status: "VU",
-    emoji: "🐢",
-    description: "딱딱한 등딱지 대신 부드러운 가죽 같은 껍질을 가진 민물거북입니다. 동아시아에 널리 분포하며, 한국, 중국, 일본, 베트남 등에 서식합니다. 물속에서 피부 호흡을 할 수 있으며, 코끝이 돼지코처럼 돌출되어 있습니다. 식용으로도 널리 이용됩니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Pelodiscus_sinensis_2008.jpg/640px-Pelodiscus_sinensis_2008.jpg",
+    description: "딱딱한 등딱지 대신 부드러운 가죽 같은 껍질을 가진 민물거북입니다. 동아시아에 널리 분포하며, 물속에서 피부 호흡을 할 수 있습니다."
   },
   {
     name: "악어거북",
@@ -421,8 +421,8 @@ const TURTLES = [
     lifespan: "50~100년",
     diet: "물고기, 뱀, 거북, 수생식물",
     status: "VU",
-    emoji: "🐢",
-    description: "북아메리카 최대의 민물거북으로, 공룡 시대를 연상시키는 외모를 가지고 있습니다. 혀에 있는 벌레 모양의 돌기로 물고기를 유인하는 독특한 사냥법을 사용합니다. 턱의 물리는 힘이 매우 강력합니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Alligator_snapping_turtle.jpg/640px-Alligator_snapping_turtle.jpg",
+    description: "북아메리카 최대의 민물거북으로, 공룡 시대를 연상시키는 외모를 가지고 있습니다. 혀에 있는 벌레 모양의 돌기로 물고기를 유인하는 독특한 사냥법을 사용합니다."
   },
   {
     name: "늑대거북",
@@ -436,8 +436,8 @@ const TURTLES = [
     lifespan: "30~50년",
     diet: "물고기, 개구리, 뱀, 새, 수생식물",
     status: "LC",
-    emoji: "🐢",
-    description: "북아메리카에 광범위하게 분포하는 대형 민물거북으로, 공격적인 성격과 강한 턱으로 유명합니다. 물속에서는 비교적 온순하지만 육지에서는 방어적으로 물려고 합니다. 등딱지에 이끼가 자라 위장이 되기도 합니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Common_Snapping_Turtle_Close_Up.jpg/640px-Common_Snapping_Turtle_Close_Up.jpg",
+    description: "북아메리카에 광범위하게 분포하는 대형 민물거북으로, 공격적인 성격과 강한 턱으로 유명합니다."
   },
   {
     name: "마타마타",
@@ -451,8 +451,8 @@ const TURTLES = [
     lifespan: "40~75년",
     diet: "물고기",
     status: "LC",
-    emoji: "🐢",
-    description: "남아메리카 아마존과 오리노코 강 유역에 서식하는 독특한 외모의 민물거북입니다. 납작한 삼각형 머리, 긴 코, 울퉁불퉁한 등딱지로 낙엽처럼 위장합니다. 물을 강하게 빨아들여 물고기를 통째로 삼키는 독특한 사냥법을 사용합니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Chelus_fimbriatus_2005.jpg/640px-Chelus_fimbriatus_2005.jpg",
+    description: "남아메리카 아마존과 오리노코 강 유역에 서식하는 독특한 외모의 민물거북입니다. 납작한 삼각형 머리, 긴 코, 울퉁불퉁한 등딱지로 낙엽처럼 위장합니다."
   },
   {
     name: "돼지코거북",
@@ -466,8 +466,8 @@ const TURTLES = [
     lifespan: "25~50년",
     diet: "과일, 잎, 조류, 갑각류, 곤충",
     status: "EN",
-    emoji: "🐢",
-    description: "호주 북부와 뉴기니에 서식하는 독특한 민물거북으로, 바다거북처럼 지느러미 형태의 앞다리를 가진 유일한 민물거북입니다. 돼지 코처럼 돌출된 코가 특징이며, 과(科)에서 유일하게 현존하는 종입니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Carettochelys_insculpta.jpg/640px-Carettochelys_insculpta.jpg",
+    description: "호주 북부와 뉴기니에 서식하는 독특한 민물거북으로, 바다거북처럼 지느러미 형태의 앞다리를 가진 유일한 민물거북입니다."
   },
   {
     name: "다이아몬드등거북",
@@ -481,8 +481,8 @@ const TURTLES = [
     lifespan: "25~40년",
     diet: "달팽이, 갑각류, 조개, 물고기",
     status: "VU",
-    emoji: "🐢",
-    description: "미국 동부와 남부의 기수(기수) 습지에 서식하는 유일한 거북으로, 등딱지에 다이아몬드 모양의 무늬가 있습니다. 해수와 담수가 만나는 특수한 환경에 적응했으며, 체내의 특수한 분비샘으로 염분을 조절합니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Malaclemys_terrapin_-_Diamondback_Terrapin.jpg/640px-Malaclemys_terrapin_-_Diamondback_Terrapin.jpg",
+    description: "미국 동부와 남부의 기수 습지에 서식하는 유일한 거북으로, 등딱지에 다이아몬드 모양의 무늬가 있습니다."
   },
   {
     name: "페인티드거북",
@@ -496,8 +496,8 @@ const TURTLES = [
     lifespan: "25~50년",
     diet: "수생식물, 곤충, 갑각류, 물고기",
     status: "LC",
-    emoji: "🐢",
-    description: "북아메리카에서 가장 널리 분포하는 거북으로, 등딱지 가장자리와 피부에 빨간색, 노란색의 선명한 줄무늬가 특징입니다. 연못이나 호수의 통나무 위에서 일광욕하는 모습을 흔히 볼 수 있습니다. 4개의 아종이 있습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Painted_Turtle.jpg/640px-Painted_Turtle.jpg",
+    description: "북아메리카에서 가장 널리 분포하는 거북으로, 등딱지 가장자리와 피부에 빨간색, 노란색의 선명한 줄무늬가 특징입니다."
   },
   {
     name: "상자거북",
@@ -511,8 +511,8 @@ const TURTLES = [
     lifespan: "50~100년",
     diet: "곤충, 지렁이, 버섯, 열매, 잎",
     status: "VU",
-    emoji: "🐢",
-    description: "미국 동부의 숲에 사는 반수생 거북으로, 등딱지를 완전히 닫아 상자처럼 만들 수 있는 경첩 구조의 배딱지가 특징입니다. 주로 육지에서 생활하지만, 늪거북과에 속합니다. 100년 이상 사는 개체도 보고되었습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Terrapene_carolina_carolina_-_Puddle_%288743950534%29.jpg/640px-Terrapene_carolina_carolina_-_Puddle_%288743950534%29.jpg",
+    description: "미국 동부의 숲에 사는 반수생 거북으로, 등딱지를 완전히 닫아 상자처럼 만들 수 있는 경첩 구조의 배딱지가 특징입니다."
   },
   {
     name: "나무거북",
@@ -526,11 +526,11 @@ const TURTLES = [
     lifespan: "40~60년",
     diet: "식물, 곤충, 지렁이, 버섯, 열매",
     status: "EN",
-    emoji: "🐢",
-    description: "북아메리카 북동부의 숲과 하천에 서식하며, 거북 중 가장 지능이 높은 것으로 알려져 있습니다. 등딱지가 나무 조각처럼 거칠고 조각된 듯한 질감이 특징이며, 다리와 목에 주황색이 도는 피부를 가지고 있습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Glyptemys_insculpta.jpg/640px-Glyptemys_insculpta.jpg",
+    description: "북아메리카 북동부의 숲과 하천에 서식하며, 거북 중 가장 지능이 높은 것으로 알려져 있습니다."
   },
   {
-    name: "쏠가리거북 (플라이리버거북)",
+    name: "머레이강거북",
     english: "Murray River Short-necked Turtle",
     scientific: "Emydura macquarii",
     family: "뱀목거북과 (Chelidae)",
@@ -541,8 +541,8 @@ const TURTLES = [
     lifespan: "30~40년",
     diet: "수생식물, 갑각류, 곤충",
     status: "LC",
-    emoji: "🐢",
-    description: "호주 남동부 머레이강 유역에 서식하는 민물거북으로, 짧은 목이 특징입니다. 호주에서 가장 흔한 거북 중 하나이며, 강과 호수의 일광욕 장소에서 자주 관찰됩니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Emydura_macquarii_krefftii.jpg/640px-Emydura_macquarii_krefftii.jpg",
+    description: "호주 남동부 머레이강 유역에 서식하는 민물거북으로, 짧은 목이 특징입니다. 호주에서 가장 흔한 거북 중 하나입니다."
   },
   {
     name: "긴목거북",
@@ -556,8 +556,8 @@ const TURTLES = [
     lifespan: "30~50년",
     diet: "물고기, 갑각류, 올챙이, 곤충",
     status: "LC",
-    emoji: "🐢",
-    description: "호주 동부에 서식하며, 등딱지 길이만큼 긴 목이 특징입니다. 뱀처럼 긴 목을 옆으로 접어 등딱지 안에 넣는 독특한 방식의 방어 자세를 취합니다. 위협을 느끼면 사향샘에서 악취를 내뿜기도 합니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Eastern_long-neck_turtle.jpg/640px-Eastern_long-neck_turtle.jpg",
+    description: "호주 동부에 서식하며, 등딱지 길이만큼 긴 목이 특징입니다. 뱀처럼 긴 목을 옆으로 접어 등딱지 안에 넣습니다."
   },
   {
     name: "양쯔강자라",
@@ -571,8 +571,8 @@ const TURTLES = [
     lifespan: "100년 이상",
     diet: "물고기, 게, 달팽이, 수생식물",
     status: "CR",
-    emoji: "🐢",
-    description: "세계에서 가장 희귀한 거북으로, 현재 확인된 개체가 2~3마리에 불과합니다. 중국과 베트남의 큰 강과 호수에 서식했으나, 서식지 파괴와 남획으로 기능적 멸종 상태에 가깝습니다. 보전 노력이 진행 중이지만, 상황은 매우 심각합니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Rafetus_swinhoei_-_Shanghai_Zoo.jpg/640px-Rafetus_swinhoei_-_Shanghai_Zoo.jpg",
+    description: "세계에서 가장 희귀한 거북으로, 현재 확인된 개체가 2~3마리에 불과합니다. 기능적 멸종 상태에 가깝습니다."
   },
   {
     name: "지도거북",
@@ -586,8 +586,8 @@ const TURTLES = [
     lifespan: "15~20년",
     diet: "갑각류, 연체동물, 곤충",
     status: "LC",
-    emoji: "🐢",
-    description: "등딱지의 무늬가 지도의 등고선과 닮아 이름이 붙은 북아메리카 민물거북입니다. 미국 동부와 중부의 큰 강과 호수에 서식하며, 암컷이 수컷보다 2배 이상 크다는 뚜렷한 성적 이형성을 보입니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Graptemys_geographica.jpg/640px-Graptemys_geographica.jpg",
+    description: "등딱지의 무늬가 지도의 등고선과 닮아 이름이 붙은 북아메리카 민물거북입니다."
   },
   {
     name: "머스크거북",
@@ -601,8 +601,8 @@ const TURTLES = [
     lifespan: "30~50년",
     diet: "곤충, 연체동물, 수생식물",
     status: "LC",
-    emoji: "🐢",
-    description: "북아메리카에서 가장 작은 거북 중 하나로, 위협을 느끼면 사향샘에서 강한 악취를 내뿜어 'Stinkpot(냄새통)'이라는 별명이 있습니다. 얕은 물에서 바닥을 걸어 다니며, 거의 물 밖으로 나오지 않습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Sternotherus_odoratus.jpg/640px-Sternotherus_odoratus.jpg",
+    description: "북아메리카에서 가장 작은 거북 중 하나로, 위협을 느끼면 사향샘에서 강한 악취를 내뿜어 'Stinkpot'이라는 별명이 있습니다."
   },
   {
     name: "진흙거북",
@@ -616,8 +616,8 @@ const TURTLES = [
     lifespan: "30~50년",
     diet: "곤충, 새우, 달팽이, 수생식물",
     status: "LC",
-    emoji: "🐢",
-    description: "미국 동부의 얕은 연못, 습지, 늪에 서식하는 소형 민물거북입니다. 진흙 바닥을 걸어 다니며 먹이를 찾고, 가뭄이나 추위에는 진흙 속에 묻혀 휴면합니다. 배딱지에 경첩이 있어 부분적으로 닫을 수 있습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Kinosternon_subrubrum.jpg/640px-Kinosternon_subrubrum.jpg",
+    description: "미국 동부의 얕은 연못, 습지, 늪에 서식하는 소형 민물거북입니다. 배딱지에 경첩이 있어 부분적으로 닫을 수 있습니다."
   },
   {
     name: "부채머리거북",
@@ -631,8 +631,8 @@ const TURTLES = [
     lifespan: "20~30년",
     diet: "물고기, 갑각류, 곤충",
     status: "EN",
-    emoji: "🐢",
-    description: "동남아시아의 산간 계류에 서식하며, 몸에 비해 매우 큰 머리가 특징입니다. 머리가 너무 커서 등딱지 안으로 들어가지 않으며, 대신 딱딱한 뼈 판으로 보호됩니다. 나무를 타는 능력이 있는 독특한 거북입니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Platysternon_megacephalum.jpg/640px-Platysternon_megacephalum.jpg",
+    description: "동남아시아의 산간 계류에 서식하며, 몸에 비해 매우 큰 머리가 특징입니다. 나무를 타는 능력이 있는 독특한 거북입니다."
   },
   {
     name: "인도지붕거북",
@@ -646,8 +646,8 @@ const TURTLES = [
     lifespan: "15~25년",
     diet: "수생식물, 과일, 꽃",
     status: "LC",
-    emoji: "🐢",
-    description: "인도, 파키스탄, 방글라데시, 네팔의 큰 강에 서식하며, 등딱지 중앙에 솟은 돌기(keel)가 지붕처럼 보여 이름이 붙었습니다. 갠지스강에서 흔히 볼 수 있으며, 인도에서 CITES 부속서 I으로 보호받고 있습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Pangshura_tecta.jpg/640px-Pangshura_tecta.jpg",
+    description: "인도, 파키스탄, 방글라데시, 네팔의 큰 강에 서식하며, 등딱지 중앙에 솟은 돌기가 지붕처럼 보여 이름이 붙었습니다."
   },
   {
     name: "메콩강자라",
@@ -661,8 +661,8 @@ const TURTLES = [
     lifespan: "50년 이상",
     diet: "물고기, 갑각류, 연체동물",
     status: "EN",
-    emoji: "🐢",
-    description: "동남아시아 최대의 민물거북 중 하나로, 길이가 2m에 달할 수 있습니다. 하루의 95%를 모래나 진흙에 묻혀 눈과 입만 내놓고 보냅니다. 먹이가 다가오면 번개처럼 빠르게 머리를 내밀어 잡아먹습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Pelochelys_cantorii.jpg/640px-Pelochelys_cantorii.jpg",
+    description: "동남아시아 최대의 민물거북 중 하나로, 길이가 2m에 달할 수 있습니다. 하루의 95%를 모래나 진흙에 묻혀 보냅니다."
   },
   {
     name: "플로리다자라",
@@ -676,8 +676,8 @@ const TURTLES = [
     lifespan: "20~30년",
     diet: "물고기, 갑각류, 달팽이, 곤충",
     status: "LC",
-    emoji: "🐢",
-    description: "미국 플로리다를 중심으로 남동부에 서식하는 대형 자라입니다. 북아메리카에서 가장 큰 자라 종으로, 길쭉한 코와 부드러운 등딱지가 특징입니다. 매우 빠르게 수영하며, 방어적일 때 공격적으로 물 수 있습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Florida_softshell_turtle.jpg/640px-Florida_softshell_turtle.jpg",
+    description: "미국 플로리다를 중심으로 남동부에 서식하는 대형 자라입니다. 북아메리카에서 가장 큰 자라 종입니다."
   },
   {
     name: "유럽연못거북",
@@ -691,8 +691,8 @@ const TURTLES = [
     lifespan: "40~100년",
     diet: "곤충, 갑각류, 물고기, 수생식물",
     status: "NT",
-    emoji: "🐢",
-    description: "유럽에서 가장 널리 분포하는 민물거북으로, 남유럽과 중유럽의 연못, 호수, 느린 하천에 서식합니다. 검은 등딱지에 노란색 점이 있으며, 유럽의 거북 보전 프로그램에서 중요한 종입니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Emys_orbicularis.jpg/640px-Emys_orbicularis.jpg",
+    description: "유럽에서 가장 널리 분포하는 민물거북으로, 검은 등딱지에 노란색 점이 있습니다."
   },
   {
     name: "바타구르강거북",
@@ -706,8 +706,8 @@ const TURTLES = [
     lifespan: "50년 이상",
     diet: "수생식물, 맹그로브 열매",
     status: "CR",
-    emoji: "🐢",
-    description: "인도, 방글라데시, 미얀마의 큰 강과 기수역에 서식하던 대형 민물거북입니다. 번식기에 수컷의 머리가 선명한 빨간색과 검은색으로 변합니다. 서식지 파괴와 알 채취로 야생에서 거의 멸종했으며, 세계에서 가장 위협받는 거북 중 하나입니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Batagur_baska_001.jpg/640px-Batagur_baska_001.jpg",
+    description: "인도, 방글라데시, 미얀마의 큰 강과 기수역에 서식하던 대형 민물거북입니다. 번식기에 수컷의 머리가 선명한 빨간색과 검은색으로 변합니다."
   },
   {
     name: "머드거북 (중앙아메리카)",
@@ -721,8 +721,8 @@ const TURTLES = [
     lifespan: "20~30년",
     diet: "곤충, 식물, 작은 동물",
     status: "LC",
-    emoji: "🐢",
-    description: "중앙아메리카와 남아메리카 북부에 분포하는 진흙거북으로, 꼬리 끝에 전갈의 침처럼 생긴 돌기가 있어 이름이 붙었습니다. 건기에는 진흙에 묻혀 하면을 합니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Kinosternon_scorpioides.jpg/640px-Kinosternon_scorpioides.jpg",
+    description: "중앙아메리카와 남아메리카 북부에 분포하는 진흙거북으로, 꼬리 끝에 전갈의 침처럼 생긴 돌기가 있어 이름이 붙었습니다."
   },
   {
     name: "사향거북 (로게로)",
@@ -736,8 +736,8 @@ const TURTLES = [
     lifespan: "20~30년",
     diet: "달팽이, 조개, 곤충",
     status: "LC",
-    emoji: "🐢",
-    description: "미국 남동부의 맑은 하천과 샘에 서식하는 소형 민물거북입니다. 몸에 비해 큰 머리와 강한 턱으로 달팽이와 조개를 부수어 먹습니다. 등딱지에 3개의 뚜렷한 능선이 있습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Sternotherus_minor.jpg/640px-Sternotherus_minor.jpg",
+    description: "미국 남동부의 맑은 하천과 샘에 서식하는 소형 민물거북입니다. 몸에 비해 큰 머리와 강한 턱이 특징입니다."
   },
   {
     name: "쿠터거북",
@@ -751,8 +751,8 @@ const TURTLES = [
     lifespan: "20~40년",
     diet: "수생식물 (초식)",
     status: "LC",
-    emoji: "🐢",
-    description: "미국 동부의 강과 호수에 서식하는 대형 민물거북입니다. 주로 초식성으로 수생식물을 먹으며, 햇볕을 쬐는 일광욕을 좋아합니다. 여러 아종이 있으며, 통나무 위에서 겹겹이 쌓여 일광욕하는 모습으로 유명합니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Pseudemys_concinna_concinna.jpg/640px-Pseudemys_concinna_concinna.jpg",
+    description: "미국 동부의 강과 호수에 서식하는 대형 민물거북입니다. 주로 초식성으로 수생식물을 먹습니다."
   },
   {
     name: "블랜딩거북",
@@ -766,8 +766,8 @@ const TURTLES = [
     lifespan: "50~80년",
     diet: "갑각류, 곤충, 물고기, 식물",
     status: "EN",
-    emoji: "🐢",
-    description: "미국 북동부와 오대호 지역에 서식하며, 밝은 노란색 턱과 목이 특징입니다. 등딱지가 높이 솟은 돔 형태이며, 반수생으로 습지와 얕은 연못을 선호합니다. 늦은 성숙과 낮은 번식률로 개체수 회복이 느립니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Emydoidea_blandingii.jpg/640px-Emydoidea_blandingii.jpg",
+    description: "미국 북동부와 오대호 지역에 서식하며, 밝은 노란색 턱과 목이 특징입니다."
   },
   {
     name: "가시자라",
@@ -781,8 +781,8 @@ const TURTLES = [
     lifespan: "20~50년",
     diet: "곤충, 가재, 물고기",
     status: "LC",
-    emoji: "🐢",
-    description: "북아메리카에 널리 분포하는 자라로, 등딱지 앞쪽 가장자리에 작은 가시 같은 돌기가 있어 이름이 붙었습니다. 모래바닥에 몸을 묻고 긴 코만 수면 위로 내놓고 호흡합니다. 매우 빠르게 수영합니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Apalone_spinifera.jpg/640px-Apalone_spinifera.jpg",
+    description: "북아메리카에 널리 분포하는 자라로, 등딱지 앞쪽 가장자리에 작은 가시 같은 돌기가 있어 이름이 붙었습니다."
   },
   {
     name: "로티거북 (로티뱀목거북)",
@@ -796,8 +796,8 @@ const TURTLES = [
     lifespan: "30~50년",
     diet: "물고기, 갑각류, 곤충",
     status: "CR",
-    emoji: "🐢",
-    description: "인도네시아 로티섬에만 서식하는 극소형 뱀목거북으로, 세계에서 가장 희귀한 거북 중 하나입니다. 매우 긴 목이 특징이며, 서식지가 논과 저수지로 전환되면서 야생 개체수가 극도로 감소했습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chelodina_mccordi.jpg/640px-Chelodina_mccordi.jpg",
+    description: "인도네시아 로티섬에만 서식하는 극소형 뱀목거북으로, 세계에서 가장 희귀한 거북 중 하나입니다."
   },
 
   // ===== 추가 종 =====
@@ -813,8 +813,8 @@ const TURTLES = [
     lifespan: "50~80년",
     diet: "풀, 꽃, 선인장 열매",
     status: "VU",
-    emoji: "🐢",
-    description: "미국 남서부의 모하비 사막과 소노란 사막에 서식합니다. 일생의 95%를 지하 굴에서 보내며, 건조한 환경에 적응하여 방광에 물을 저장할 수 있습니다. 미국 연방법으로 보호받고 있습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Gopherus_agassizii.jpg/640px-Gopherus_agassizii.jpg",
+    description: "미국 남서부의 모하비 사막과 소노란 사막에 서식합니다. 일생의 95%를 지하 굴에서 보내며, 방광에 물을 저장할 수 있습니다."
   },
   {
     name: "고퍼거북",
@@ -828,8 +828,8 @@ const TURTLES = [
     lifespan: "40~80년",
     diet: "풀, 잎, 과일, 꽃",
     status: "VU",
-    emoji: "🐢",
-    description: "미국 남동부에 서식하며, 깊은 굴을 파는 능력으로 유명합니다. 굴은 350종 이상의 다른 동물에게 피난처를 제공하여 '핵심종(keystone species)'으로 불립니다. 산불 같은 자연재해 시 굴이 다른 동물들의 생명을 구합니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Gopher_tortoise_%28Gopherus_polyphemus%29.jpg/640px-Gopher_tortoise_%28Gopherus_polyphemus%29.jpg",
+    description: "미국 남동부에 서식하며, 깊은 굴을 파는 능력으로 유명합니다. 굴은 350종 이상의 다른 동물에게 피난처를 제공하여 '핵심종'으로 불립니다."
   },
   {
     name: "쟁기등거북",
@@ -843,8 +843,8 @@ const TURTLES = [
     lifespan: "30~50년",
     diet: "곤충, 달팽이, 과일, 버섯",
     status: "VU",
-    emoji: "🐢",
-    description: "서아프리카와 중앙아프리카의 열대우림에 서식하며, 등딱지 뒤쪽에 경첩이 있어 뒤로 접을 수 있는 독특한 구조를 가지고 있습니다. 이 경첩 구조로 뒤쪽을 보호할 수 있으며, 잡식성으로 달팽이와 곤충도 먹습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Kinixys_homeana.jpg/640px-Kinixys_homeana.jpg",
+    description: "서아프리카와 중앙아프리카의 열대우림에 서식하며, 등딱지 뒤쪽에 경첩이 있어 뒤로 접을 수 있는 독특한 구조를 가지고 있습니다."
   },
   {
     name: "볼슨거북",
@@ -858,8 +858,8 @@ const TURTLES = [
     lifespan: "50~100년",
     diet: "풀, 잎, 꽃",
     status: "EN",
-    emoji: "🐢",
-    description: "멕시코 북부 치와와 사막의 볼손 분지에만 서식하는 희귀한 육지거북입니다. 북아메리카에서 가장 큰 육지거북이며, 매우 제한된 서식지 때문에 멸종 위기에 처해 있습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Gopherus_flavomarginatus.jpg/640px-Gopherus_flavomarginatus.jpg",
+    description: "멕시코 북부 치와와 사막의 볼손 분지에만 서식하는 희귀한 육지거북입니다. 북아메리카에서 가장 큰 육지거북입니다."
   },
   {
     name: "종거북 (벨거북)",
@@ -873,8 +873,8 @@ const TURTLES = [
     lifespan: "20~30년",
     diet: "버섯, 과일, 곤충, 달팽이",
     status: "NT",
-    emoji: "🐢",
-    description: "사하라 이남 아프리카에 널리 분포하는 경첩등거북으로, 사바나와 초원 지대에 서식합니다. 등딱지 뒤쪽의 경첩으로 뒤를 보호하며, 우기에 활발히 활동하고 건기에는 숨어 지냅니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Kinixys_belliana_nogueyi.jpg/640px-Kinixys_belliana_nogueyi.jpg",
+    description: "사하라 이남 아프리카에 널리 분포하는 경첩등거북으로, 사바나와 초원 지대에 서식합니다."
   },
   {
     name: "점박이거북",
@@ -888,8 +888,8 @@ const TURTLES = [
     lifespan: "25~50년",
     diet: "곤충, 수생식물, 조류",
     status: "EN",
-    emoji: "🐢",
-    description: "검은 등딱지에 밝은 노란색 점이 박힌 아름다운 소형 거북으로, 미국 동부와 캐나다 남부의 습지에 서식합니다. 나이가 들수록 점이 많아지며, 습지 손실로 개체수가 감소하고 있습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Spotted_turtle.jpg/640px-Spotted_turtle.jpg",
+    description: "검은 등딱지에 밝은 노란색 점이 박힌 아름다운 소형 거북으로, 미국 동부와 캐나다 남부의 습지에 서식합니다."
   },
   {
     name: "인도덮개거북",
@@ -903,8 +903,8 @@ const TURTLES = [
     lifespan: "15~30년",
     diet: "물고기, 개구리, 식물, 곤충",
     status: "LC",
-    emoji: "🐢",
-    description: "인도 아대륙에 널리 분포하는 민물거북으로, 배딱지에 달린 가죽 덮개(flap)로 다리를 보호하는 독특한 구조를 가지고 있습니다. 논, 연못, 저수지 등 다양한 수역에 서식하며, 건기에는 진흙에 파묻혀 하면합니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Lissemys_punctata_-_Karunagappally.jpg/640px-Lissemys_punctata_-_Karunagappally.jpg",
+    description: "인도 아대륙에 널리 분포하는 민물거북으로, 배딱지에 달린 가죽 덮개(flap)로 다리를 보호하는 독특한 구조를 가지고 있습니다."
   },
   {
     name: "쿠바슬라이더",
@@ -918,8 +918,8 @@ const TURTLES = [
     lifespan: "20~40년",
     diet: "수생식물, 곤충, 물고기",
     status: "LC",
-    emoji: "🐢",
-    description: "쿠바와 바하마에 서식하는 민물거북으로, 카리브해 지역의 대표적인 민물 수생거북입니다. 붉은귀거북과 비슷하지만, 귀 뒤에 빨간 줄무늬가 없습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Trachemys_decussata.jpg/640px-Trachemys_decussata.jpg",
+    description: "쿠바와 바하마에 서식하는 민물거북으로, 카리브해 지역의 대표적인 민물 수생거북입니다."
   },
   {
     name: "블랙연못거북",
@@ -933,7 +933,7 @@ const TURTLES = [
     lifespan: "20~30년",
     diet: "달팽이, 수생식물, 과일",
     status: "EN",
-    emoji: "🐢",
-    description: "인도, 파키스탄, 스리랑카, 네팔, 방글라데시의 습지에 서식합니다. 검은 등딱지에 크림색의 점과 줄무늬가 있어 매우 아름다운 종입니다. 불법 밀거래의 주요 대상이 되어 멸종 위기에 처해 있습니다."
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Geoclemys_hamiltonii.jpg/640px-Geoclemys_hamiltonii.jpg",
+    description: "인도, 파키스탄, 스리랑카, 네팔, 방글라데시의 습지에 서식합니다. 검은 등딱지에 크림색의 점과 줄무늬가 있어 매우 아름다운 종입니다."
   }
 ];

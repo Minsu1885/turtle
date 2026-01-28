@@ -43,7 +43,7 @@
 
     grid.innerHTML = filtered.map((t, i) => `
       <div class="card" data-index="${TURTLES.indexOf(t)}">
-        <div class="card-emoji">${t.emoji}</div>
+        <div class="card-img"><img src="${t.image}" alt="${t.name}" loading="lazy" onerror="this.style.display='none'"></div>
         <div class="card-body">
           <h3>${t.name}</h3>
           <div class="scientific">${t.scientific}</div>
@@ -63,7 +63,7 @@
   function openModal(index) {
     const t = TURTLES[index];
     modalBody.innerHTML = `
-      <div class="modal-emoji">${t.emoji}</div>
+      <div class="modal-img"><img src="${t.image}" alt="${t.name}" onerror="this.style.display='none'"></div>
       <h2>${t.name}</h2>
       <div class="modal-scientific">${t.scientific}</div>
       <div class="modal-tags">
